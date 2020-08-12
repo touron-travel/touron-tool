@@ -18,7 +18,7 @@ function initMap() {
 
 function displayStores(cities){
 
-  var selectedCity ='malaysia'
+  var selectedCity ='paris'
   var city=''
   cities.forEach((c)=>{
     console.log(c.name)
@@ -76,7 +76,7 @@ function displayStores(cities){
   function showPlaceMarker(cities){
     var bounds = new google.maps.LatLngBounds()
   
-    var selectedCity ='malaysia'
+    var selectedCity ='paris'
     var city=''
     cities.forEach((c)=>{
       console.log(c.name)
